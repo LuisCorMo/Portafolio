@@ -1,0 +1,2 @@
+export const textEs = "Desarrollador web junior. Diseñador creativo. Programador Fullstack. Bilingüe. JavaScript. React. CSS. HTML"
+export const textEn = "Junior Web Developer. Creative Designer. Fullstack Programmer. Bilingual. JavaScript. React. CSS. HTML"
