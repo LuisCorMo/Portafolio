@@ -2,7 +2,7 @@ import { textEn, textEs } from "../../utils/texto";
 
 const About = ({ isChangeLanguaje }) => {
   return (
-    <section className="mx-4 mt-6 p-2 text-gray-900 dark:text-gray-200 darkTheme">
+    <section className="mx-4 mt-6 p-2 text-gray-900 dark:text-gray-200 bg-white darkTheme">
       <div>
         <h1 className="text-lg font-bold">
           {isChangeLanguaje ? textEn.about[0] : textEs.about[0]} 👋
