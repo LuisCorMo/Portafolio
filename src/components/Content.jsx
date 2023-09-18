@@ -4,19 +4,19 @@ import Contact from "./Body/Contact";
 import Feed from "./Body/Feed";
 import Projects from "./Body/Projects";
 
-const Content = () => {
+const Content = ({ isChangeLanguaje }) => {
   const [activeTab, setActiveTab] = useState("About");
 
   const renderTab = () => {
     switch (activeTab) {
       case "About":
-        return <About />;
+        return <About isChangeLanguaje={isChangeLanguaje} />;
       case "Feed":
-        return <Feed />;
+        return <Feed isChangeLanguaje={isChangeLanguaje} />;
       case "Projects":
-        return <Projects />;
+        return <Projects isChangeLanguaje={isChangeLanguaje} />;
       case "Contact":
-        return <Contact />;
+        return <Contact isChangeLanguaje={isChangeLanguaje} />;
       default:
         return <About />;
     }
