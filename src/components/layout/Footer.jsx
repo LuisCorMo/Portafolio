@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { textEn, textEs } from "../../utils/texto";
 
 const Footer = ({ handleChangeLanguaje, isChangeLanguaje }) => {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
 
   const handleChangeTheme = () => {
     setIsDarkTheme(!isDarkTheme);

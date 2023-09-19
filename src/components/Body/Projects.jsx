@@ -2,7 +2,7 @@ import { textEn, textEs } from "../../utils/texto";
 
 const Projects = ({ isChangeLanguaje }) => {
   return (
-    <section className="bg-white mx-4 mt-6 p-2 text-gray-900 dark:text-gray-200 darkTheme sm:p-4">
+    <section className="bg-white mx-4 mt-4 p-4 text-gray-900 dark:text-gray-200 darkTheme sm:p-4">
       <div>
         <p className="font-semibold">
           {isChangeLanguaje ? textEn.pj : textEs.pj}

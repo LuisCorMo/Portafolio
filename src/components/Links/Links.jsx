@@ -53,12 +53,12 @@ const Links = ({ isShowModal, handleClickOnModal }) => {
               className="flex gap-4 items-center px-[60px]"
             >
               <i className="bx bx-envelope text-2xl"></i>
-              E-mail
+              Email
             </a>
           </li>
           <li className="rounded-full bg-pink-500">
             <a
-              href="/docs/LuisCV.pdf"
+              href=""
               target="_blank"
               className="flex gap-4 items-center px-[60px]"
             >

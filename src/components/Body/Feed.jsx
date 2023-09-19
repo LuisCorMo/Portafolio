@@ -10,7 +10,7 @@ const Feed = ({ isChangeLanguaje }) => {
   };
 
   return (
-    <section className="mx-4 mt-6 bg-white p-2 text-gray-900 dark:text-gray-200 darkTheme">
+    <section className="mx-4 mt-4 bg-white p-2 text-gray-900 dark:text-gray-200 darkTheme">
       <article className="grid grid-cols-[auto_1fr] gap-1 rounded-lg p-4 hover:bg-gray-200/80 dark:hover:bg-dark-bg/50">
         <div className="text-end">
           <i className="bx bxs-pin text-sm"></i>

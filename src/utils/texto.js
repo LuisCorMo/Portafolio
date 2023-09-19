@@ -10,6 +10,7 @@ export const textEs = {
     "Mi nombre es Luis. Soy un desarrollador web junior con una certificación en Front-End y actualmente estoy ampliando mis habilidades en Back-End. Mis fortalezas radican en mi dominio de JavaScript, CSS, React y librerias como Tailwind, además de tener un conocimiento básico en TypeScript. Lo que me distingue es mi disposición y dedicación para aprender constantemente y expandir mis conocimientos. Tengo la capacidad de ser autodidacta cuando se requiere y poseo excelentes habilidades para el trabajo en equipo. Estoy emocionado por la oportunidad de llevar mis habilidades y mi pasión al siguiente nivel y estoy ansioso por participar en proyectos desafiantes y gratificantes.",
   ],
   feed: [
+    "Anclado",
     "Me siento emocionado ",
     "Un poco de algo",
     "Un paso más hacia adelante ",
