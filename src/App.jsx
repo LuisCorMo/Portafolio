@@ -3,6 +3,7 @@ import "./App.css";
 import Footer from "./components/layout/Footer";
 import { textEn, textEs } from "./utils/texto";
 import Content from "./components/Content";
+import Links from "./components/Links/Links";
 
 function App() {
   const [isChangeLanguaje, setIsChangeLanguaje] = useState(false);
@@ -14,6 +15,12 @@ function App() {
   useEffect(() => {
     isChangeLanguaje ? textEn : textEs;
   });
+
+  const [isShowModal, setIsShowModal] = useState(false);
+
+  const handleClickOnModal = () => {
+    setIsShowModal(!isShowModal);
+  };
 
   return (
     <section className="bg-gray-100 dark:bg-dark-bg min-h-screen transition-colors dark:text-gray-200 m-auto">
@@ -59,8 +66,13 @@ function App() {
               <i className="bx bxs-briefcase-alt"></i>{" "}
               {isChangeLanguaje ? textEn.info[0] : textEs.info[0]}
             </li>
-            <li className="font-semibold text-sm text-pink-500">
-              <i className="bx bx-link-alt"></i> /links
+            <li className="flex font-semibold text-sm text-pink-500 items-center">
+              <i className="bx bx-link-alt"></i> /
+              <button onClick={handleClickOnModal}>Links</button>
+              <Links
+                isShowModal={isShowModal}
+                handleClickOnModal={handleClickOnModal}
+              />
             </li>
             <li className="font-semibold text-sm">
               <i className="bx bxs-cake"></i>{" "}

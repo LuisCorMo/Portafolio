@@ -21,7 +21,7 @@ const Footer = ({ handleChangeLanguaje, isChangeLanguaje }) => {
           <button className="w-8 aspect-square" onClick={handleChangeLanguaje}>
             {isDarkTheme ? (
               <>
-                <img src="/images/translate.png" alt="" />
+                <img src="/images/translateA.png" alt="" />
               </>
             ) : (
               <img src="/images/translateB.png" alt="" />
