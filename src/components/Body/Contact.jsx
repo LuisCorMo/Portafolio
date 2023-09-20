@@ -28,13 +28,13 @@ const Contact = () => {
         onSubmit={sendEmail}
         className="grid gap-2 rounded-lg text-lg font-medium"
       >
-        <label>Name</label>
+        <label>Your Name</label>
         <input
           className="rounded-lg outline-none border-[1px] p-1 px-2 bg-gray-200 darkTheme"
           type="text"
           name="user_name"
         />
-        <label>Email</label>
+        <label>Email Address</label>
         <input
           className="rounded-lg outline-none border-[1px] p-1 px-2 bg-gray-200 darkTheme"
           type="email"
