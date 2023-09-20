@@ -66,7 +66,7 @@ function App() {
               <i className="bx bxs-briefcase-alt"></i>{" "}
               {isChangeLanguaje ? textEn.info[0] : textEs.info[0]}
             </li>
-            <li className="flex font-semibold text-sm text-pink-500 items-center">
+            <li className="flex font-semibold text-sm text-pink-500 items-center animate-[pulse_1s_infinite]">
               <i className="bx bx-link-alt"></i> /
               <button onClick={handleClickOnModal}>Links</button>
               <Links
