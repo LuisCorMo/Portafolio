@@ -58,7 +58,7 @@ const Links = ({ isShowModal, handleClickOnModal }) => {
           </li>
           <li className="rounded-full bg-pink-500">
             <a
-              href=""
+              href="/docs/CV_LuisCorona_Front-End.pdf"
               target="_blank"
               className="flex gap-4 items-center px-[60px]"
             >
