@@ -31,7 +31,7 @@ const Projects = ({ isChangeLanguaje }) => {
 
         <a
           target="_blank"
-          href="https://charming-genie-be5844.netlify.app/pokedex" className="hover:bg-gray-200/80 dark:hover:bg-dark-bg/50 px-1 rounded-lg"
+          href="https://charming-genie-be5844.netlify.app/" className="hover:bg-gray-200/80 dark:hover:bg-dark-bg/50 px-1 rounded-lg"
         >
           <img
             className="rounded-lg h-[200px] w-[310px] sm:h-[170px]"
@@ -42,8 +42,8 @@ const Projects = ({ isChangeLanguaje }) => {
           <p>React / Js / tailwind</p>
         </a>
 
-        <a target="_blank" href="https://weathe-app-react-pj2.netlify.app/" className="hover:bg-gray-200/80 dark:hover:bg-dark-bg/50 px-1 rounded-lg">
-          <img className="rounded-lg h-[200px] w-[310px] sm:h-[170px]" src="/images/pj1.jpeg" alt="" />
+        <a target="_blank" href="" className="hover:bg-gray-200/80 dark:hover:bg-dark-bg/50 px-1 rounded-lg">
+          <img className="rounded-lg h-[200px] w-[310px] sm:h-[170px]" src="/images/proximamente.jpg" alt="" />
           <h5 className="font-semibold">H.P Quizz App</h5>
           <p>React / Js / tailwind</p>
         </a>
